@@ -1,0 +1,1952 @@
+[
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "static",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 99.99903500931217,
+      "avgLatencyMs": 0.2592700999999997,
+      "medLatencyMs": 0,
+      "p95LatencyMs": 0.763,
+      "maxLatencyMs": 3.0969,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436289648-static-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:25:09.824Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "static",
+    "targetRps": 1000,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 999.9857009194309,
+      "avgLatencyMs": 0.011973136343182835,
+      "medLatencyMs": 0,
+      "p95LatencyMs": 0,
+      "maxLatencyMs": 3.7259,
+      "totalRequests": 20001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436311071-static-1000.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:25:31.255Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "transform",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 10.043718959474313,
+      "avgLatencyMs": 12.88582686567165,
+      "medLatencyMs": 10.6974,
+      "p95LatencyMs": 30.728,
+      "maxLatencyMs": 50.1429,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436332475-transform-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:25:52.707Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "transform",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 30.03372187291349,
+      "avgLatencyMs": 10.3471554076539,
+      "medLatencyMs": 8.9866,
+      "p95LatencyMs": 22.4431,
+      "maxLatencyMs": 35.7449,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436353894-transform-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:26:14.180Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "io-simulate",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 98.46927929822442,
+      "avgLatencyMs": 301.74885545,
+      "medLatencyMs": 300.6406,
+      "p95LatencyMs": 309.941965,
+      "maxLatencyMs": 315.2415,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436375389-io-simulate-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:26:36.868Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "io-simulate",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 492.3823706098544,
+      "avgLatencyMs": 300.22767676232445,
+      "medLatencyMs": 300.0422,
+      "p95LatencyMs": 300.9675,
+      "maxLatencyMs": 315.7808,
+      "totalRequests": 10001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436398069-io-simulate-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:26:58.602Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 20.048444942368047,
+      "avgLatencyMs": 1.6568578553615942,
+      "medLatencyMs": 1.4934,
+      "p95LatencyMs": 3.3163,
+      "maxLatencyMs": 5.9515,
+      "totalRequests": 401,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436419812-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:27:21.226Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 99.99793254274468,
+      "avgLatencyMs": 1.1841286999999998,
+      "medLatencyMs": 1.06025,
+      "p95LatencyMs": 2.501369999999999,
+      "maxLatencyMs": 6.4458,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436442412-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:27:42.611Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 10.047949113106524,
+      "avgLatencyMs": 2.372209452736319,
+      "medLatencyMs": 2.3173,
+      "p95LatencyMs": 3.8694,
+      "maxLatencyMs": 5.9677,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436463802-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:28:03.966Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 30.046750744374503,
+      "avgLatencyMs": 2.2415801996672187,
+      "medLatencyMs": 2.0877,
+      "p95LatencyMs": 4.0389,
+      "maxLatencyMs": 6.9165,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436485170-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:28:25.331Z"
+  },
+  {
+    "framework": "express",
+    "mode": "single",
+    "test": "concurrency",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 9293.38721381971,
+      "avgLatencyMs": 48.324502741037804,
+      "medLatencyMs": 49.477,
+      "p95LatencyMs": 72.206,
+      "maxLatencyMs": 93.4644,
+      "totalRequests": 233014,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436506535-concurrency-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:28:51.807Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "static",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 100.04478016359495,
+      "avgLatencyMs": 0.378003848075962,
+      "medLatencyMs": 0.5075,
+      "p95LatencyMs": 0.9066,
+      "maxLatencyMs": 3.0014,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436533008-static-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:29:13.165Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "static",
+    "targetRps": 1000,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 999.948167686728,
+      "avgLatencyMs": 0.032952349999999936,
+      "medLatencyMs": 0,
+      "p95LatencyMs": 0.5047,
+      "maxLatencyMs": 3.6541,
+      "totalRequests": 20000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436554378-static-1000.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:29:34.570Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "transform",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 10.035353151192007,
+      "avgLatencyMs": 12.646949751243788,
+      "medLatencyMs": 10.2193,
+      "p95LatencyMs": 28.8433,
+      "maxLatencyMs": 47.3228,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436575786-transform-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:29:56.059Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "transform",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 29.999853300717362,
+      "avgLatencyMs": 12.41054999999999,
+      "medLatencyMs": 10.25935,
+      "p95LatencyMs": 25.322974999999996,
+      "maxLatencyMs": 59.9106,
+      "totalRequests": 600,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436597289-transform-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:30:17.627Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "io-simulate",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 98.47511166553544,
+      "avgLatencyMs": 300.8402364817587,
+      "medLatencyMs": 300.4889,
+      "p95LatencyMs": 303.3865,
+      "maxLatencyMs": 314.3543,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436618840-io-simulate-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:30:39.329Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "io-simulate",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 492.1627644120585,
+      "avgLatencyMs": 300.4015114688526,
+      "medLatencyMs": 300.1136,
+      "p95LatencyMs": 301.9352,
+      "maxLatencyMs": 314.6049,
+      "totalRequests": 10001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436640553-io-simulate-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:31:01.118Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 20.048507488859993,
+      "avgLatencyMs": 0.854023690773067,
+      "medLatencyMs": 0.5874,
+      "p95LatencyMs": 1.7897,
+      "maxLatencyMs": 4.2055,
+      "totalRequests": 401,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436662319-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:31:22.482Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 100.04462160114272,
+      "avgLatencyMs": 0.7693983508245885,
+      "medLatencyMs": 0.6356,
+      "p95LatencyMs": 1.5174,
+      "maxLatencyMs": 3.4012,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436683703-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:31:43.879Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 9.999773655123317,
+      "avgLatencyMs": 1.4234624999999992,
+      "medLatencyMs": 1.3184999999999998,
+      "p95LatencyMs": 2.655229999999999,
+      "maxLatencyMs": 4.6011,
+      "totalRequests": 200,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436705067-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:32:05.215Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 29.99804802701488,
+      "avgLatencyMs": 2.338757666666662,
+      "medLatencyMs": 2.2076000000000002,
+      "p95LatencyMs": 4.356179999999998,
+      "maxLatencyMs": 7.3238,
+      "totalRequests": 600,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436726452-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:32:27.644Z"
+  },
+  {
+    "framework": "express",
+    "mode": "cluster",
+    "test": "concurrency",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 8824.718781888232,
+      "avgLatencyMs": 50.88855545848189,
+      "medLatencyMs": 49.92885,
+      "p95LatencyMs": 71,
+      "maxLatencyMs": 99.4535,
+      "totalRequests": 221252,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436748852-concurrency-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:32:55.238Z"
+  },
+  {
+    "framework": "express",
+    "mode": "workers",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 20.048765397026852,
+      "avgLatencyMs": 1.1457506234413966,
+      "medLatencyMs": 1.083,
+      "p95LatencyMs": 2.1309,
+      "maxLatencyMs": 4.2185,
+      "totalRequests": 401,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436776432-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:33:16.575Z"
+  },
+  {
+    "framework": "express",
+    "mode": "workers",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 99.99387237550083,
+      "avgLatencyMs": 0.9360050000000011,
+      "medLatencyMs": 0.7315,
+      "p95LatencyMs": 1.8736399999999998,
+      "maxLatencyMs": 5.3495,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436797780-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:33:40.904Z"
+  },
+  {
+    "framework": "express",
+    "mode": "workers",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 9.999744506527858,
+      "avgLatencyMs": 2.1402125000000005,
+      "medLatencyMs": 1.86545,
+      "p95LatencyMs": 4.070919999999999,
+      "maxLatencyMs": 10.1144,
+      "totalRequests": 200,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436822109-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:34:05.224Z"
+  },
+  {
+    "framework": "express",
+    "mode": "workers",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3001",
+    "metrics": {
+      "rps": 29.998894990703015,
+      "avgLatencyMs": 2.247339833333335,
+      "medLatencyMs": 2.0989500000000003,
+      "p95LatencyMs": 3.9595749999999987,
+      "maxLatencyMs": 8.3417,
+      "totalRequests": 600,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436846420-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:34:26.579Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "static",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 100.04646735923755,
+      "avgLatencyMs": 0.2950743128435784,
+      "medLatencyMs": 0.5046,
+      "p95LatencyMs": 0.5753,
+      "maxLatencyMs": 4.8165,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436868306-static-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:34:48.464Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "static",
+    "targetRps": 1000,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 999.9968601668508,
+      "avgLatencyMs": 0.020459117044147785,
+      "medLatencyMs": 0,
+      "p95LatencyMs": 0,
+      "maxLatencyMs": 6.2481,
+      "totalRequests": 20001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436890162-static-1000.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:35:10.340Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "transform",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 10.044743184102032,
+      "avgLatencyMs": 13.021801492537309,
+      "medLatencyMs": 11.499,
+      "p95LatencyMs": 23.0766,
+      "maxLatencyMs": 41.5363,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436912065-transform-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:35:32.302Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "transform",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 30.035180041463942,
+      "avgLatencyMs": 10.875981863560733,
+      "medLatencyMs": 9.6247,
+      "p95LatencyMs": 19.9857,
+      "maxLatencyMs": 51.3524,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436934021-transform-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:35:54.326Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "io-simulate",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 98.47896797821261,
+      "avgLatencyMs": 301.02826931534264,
+      "medLatencyMs": 300.4696,
+      "p95LatencyMs": 306.8912,
+      "maxLatencyMs": 314.474,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436956027-io-simulate-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:36:19.459Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "io-simulate",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 492.16246650627977,
+      "avgLatencyMs": 300.4942661433865,
+      "medLatencyMs": 300.1319,
+      "p95LatencyMs": 301.9443,
+      "maxLatencyMs": 315.2378,
+      "totalRequests": 10001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781436981173-io-simulate-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:36:41.727Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 20.0485799590815,
+      "avgLatencyMs": 1.172163591022444,
+      "medLatencyMs": 1.0923,
+      "p95LatencyMs": 1.9702,
+      "maxLatencyMs": 5.1239,
+      "totalRequests": 401,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437003451-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:37:03.607Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 99.99894651109851,
+      "avgLatencyMs": 0.7669321499999994,
+      "medLatencyMs": 0.65045,
+      "p95LatencyMs": 1.3440199999999995,
+      "maxLatencyMs": 4.0124,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437025314-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:37:25.575Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 10.048696935224925,
+      "avgLatencyMs": 2.0939228855721397,
+      "medLatencyMs": 1.9738,
+      "p95LatencyMs": 3.8115,
+      "maxLatencyMs": 6.4127,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437047288-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:37:47.689Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 30.045242486078543,
+      "avgLatencyMs": 2.29331198003328,
+      "medLatencyMs": 2.1963,
+      "p95LatencyMs": 4.1615,
+      "maxLatencyMs": 7.7994,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437069387-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:38:09.545Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "single",
+    "test": "concurrency",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 31623.546187405274,
+      "avgLatencyMs": 14.17590850365965,
+      "medLatencyMs": 14.1556,
+      "p95LatencyMs": 20.7408,
+      "maxLatencyMs": 28.2899,
+      "totalRequests": 791506,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437091245-concurrency-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:38:36.535Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "static",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 100.04630328909347,
+      "avgLatencyMs": 0.2543224387806099,
+      "medLatencyMs": 0,
+      "p95LatencyMs": 0.9468,
+      "maxLatencyMs": 5.3246,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437118240-static-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:38:58.418Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "static",
+    "targetRps": 1000,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 1000.0113545612029,
+      "avgLatencyMs": 0.012817484125793715,
+      "medLatencyMs": 0,
+      "p95LatencyMs": 0,
+      "maxLatencyMs": 7.3687,
+      "totalRequests": 20001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437140135-static-1000.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:39:20.317Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "transform",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 10.044889762782082,
+      "avgLatencyMs": 12.134842786069655,
+      "medLatencyMs": 10.3377,
+      "p95LatencyMs": 28.6601,
+      "maxLatencyMs": 39.7108,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437162030-transform-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:39:42.252Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "transform",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 30.03546313619671,
+      "avgLatencyMs": 10.493968552412657,
+      "medLatencyMs": 9.4765,
+      "p95LatencyMs": 16.2746,
+      "maxLatencyMs": 40.9845,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437183981-transform-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:40:04.275Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "io-simulate",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 98.48267966754845,
+      "avgLatencyMs": 301.2372123938034,
+      "medLatencyMs": 300.3286,
+      "p95LatencyMs": 309.7159,
+      "maxLatencyMs": 314.7135,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437206006-io-simulate-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:40:26.487Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "io-simulate",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 492.1564794031849,
+      "avgLatencyMs": 302.1916033296681,
+      "medLatencyMs": 300.1549,
+      "p95LatencyMs": 312.1528,
+      "maxLatencyMs": 317.5024,
+      "totalRequests": 10001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437228222-io-simulate-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:40:48.766Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 20.04819285589597,
+      "avgLatencyMs": 0.836175311720698,
+      "medLatencyMs": 0.6536,
+      "p95LatencyMs": 1.5829,
+      "maxLatencyMs": 2.9115,
+      "totalRequests": 401,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437250494-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:41:11.686Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 99.99513623657346,
+      "avgLatencyMs": 0.7930112000000004,
+      "medLatencyMs": 0.65505,
+      "p95LatencyMs": 1.4271749999999999,
+      "maxLatencyMs": 6.1084,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437273401-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:41:34.583Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 10.048812983966268,
+      "avgLatencyMs": 2.050023880597016,
+      "medLatencyMs": 1.936,
+      "p95LatencyMs": 3.7472,
+      "maxLatencyMs": 5.1402,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437296300-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:41:57.460Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 30.044731956698712,
+      "avgLatencyMs": 2.2541848585690523,
+      "medLatencyMs": 2.2172,
+      "p95LatencyMs": 3.8547,
+      "maxLatencyMs": 7.0106,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437319173-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:42:19.402Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "cluster",
+    "test": "concurrency",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 53584.32145229522,
+      "avgLatencyMs": 8.326278805926181,
+      "medLatencyMs": 8.9883,
+      "p95LatencyMs": 11.375210000000008,
+      "maxLatencyMs": 32.4893,
+      "totalRequests": 1340370,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437341119-concurrency-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:42:46.530Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "workers",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 20.025107789761936,
+      "avgLatencyMs": 23.56065162094762,
+      "medLatencyMs": 23.2406,
+      "p95LatencyMs": 26.0441,
+      "maxLatencyMs": 59.3434,
+      "totalRequests": 401,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437368255-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:43:08.448Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "workers",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 99.93812875897656,
+      "avgLatencyMs": 24.850454372813648,
+      "medLatencyMs": 24.0145,
+      "p95LatencyMs": 30.9978,
+      "maxLatencyMs": 43.3857,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437390155-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:43:31.458Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "workers",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 10.035573862572553,
+      "avgLatencyMs": 27.43162189054727,
+      "medLatencyMs": 27.3385,
+      "p95LatencyMs": 31.6948,
+      "maxLatencyMs": 35.2142,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437413155-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:43:54.339Z"
+  },
+  {
+    "framework": "fastify",
+    "mode": "workers",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3002",
+    "metrics": {
+      "rps": 29.99947095932963,
+      "avgLatencyMs": 22.894797166666653,
+      "medLatencyMs": 22.81635,
+      "p95LatencyMs": 24.29716,
+      "maxLatencyMs": 26.7088,
+      "totalRequests": 600,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437436042-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:44:17.221Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "static",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 99.998456023839,
+      "avgLatencyMs": 0.5656311999999999,
+      "medLatencyMs": 0.5255,
+      "p95LatencyMs": 1.2459099999999999,
+      "maxLatencyMs": 2.6287,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437459445-static-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:44:40.608Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "static",
+    "targetRps": 1000,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 999.9847459954001,
+      "avgLatencyMs": 0.022532513374331316,
+      "medLatencyMs": 0,
+      "p95LatencyMs": 0,
+      "maxLatencyMs": 7.8944,
+      "totalRequests": 20001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437482829-static-1000.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:45:03.014Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "transform",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 9.999920800627258,
+      "avgLatencyMs": 12.715968999999994,
+      "medLatencyMs": 11.406600000000001,
+      "p95LatencyMs": 27.106169999999953,
+      "maxLatencyMs": 38.3531,
+      "totalRequests": 200,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437505230-transform-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:45:25.427Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "transform",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 30.03468216192401,
+      "avgLatencyMs": 11.114903660565712,
+      "medLatencyMs": 9.3774,
+      "p95LatencyMs": 25.3522,
+      "maxLatencyMs": 50.4513,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437527646-transform-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:45:47.942Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "io-simulate",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 98.49283214966782,
+      "avgLatencyMs": 301.0793227000004,
+      "medLatencyMs": 300.6091,
+      "p95LatencyMs": 304.45041000000003,
+      "maxLatencyMs": 314.6433,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437550164-io-simulate-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:46:10.657Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "io-simulate",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 492.2350487135739,
+      "avgLatencyMs": 300.64663468000117,
+      "medLatencyMs": 300.2368,
+      "p95LatencyMs": 302.12022,
+      "maxLatencyMs": 315.4548,
+      "totalRequests": 10000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437572891-io-simulate-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:46:36.382Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 19.99968140507522,
+      "avgLatencyMs": 1.2100032500000002,
+      "medLatencyMs": 1.081,
+      "p95LatencyMs": 2.211454999999997,
+      "maxLatencyMs": 8.7317,
+      "totalRequests": 400,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437598606-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:46:58.779Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 99.99939800362402,
+      "avgLatencyMs": 1.0214871999999973,
+      "medLatencyMs": 1.0185,
+      "p95LatencyMs": 2.02503,
+      "maxLatencyMs": 9.646,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437621014-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:47:21.194Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 9.999893001144889,
+      "avgLatencyMs": 2.316835000000002,
+      "medLatencyMs": 2.1206,
+      "p95LatencyMs": 4.078424999999999,
+      "maxLatencyMs": 10.164,
+      "totalRequests": 200,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437643434-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:47:43.615Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 30.045630463961626,
+      "avgLatencyMs": 2.019038768718802,
+      "medLatencyMs": 1.7712,
+      "p95LatencyMs": 3.1458,
+      "maxLatencyMs": 10.133,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437665827-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:48:06.011Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "single",
+    "test": "concurrency",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 8613.800244506632,
+      "avgLatencyMs": 52.13382170702886,
+      "medLatencyMs": 52.9373,
+      "p95LatencyMs": 75.162075,
+      "maxLatencyMs": 93.7663,
+      "totalRequests": 216036,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437688210-concurrency-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:48:33.478Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "static",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 99.99795554179894,
+      "avgLatencyMs": 0.5342599499999996,
+      "medLatencyMs": 0.5191,
+      "p95LatencyMs": 1.09696,
+      "maxLatencyMs": 6.4642,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437715714-static-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:48:55.881Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "static",
+    "targetRps": 1000,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 999.9591116719238,
+      "avgLatencyMs": 0.03713343499999999,
+      "medLatencyMs": 0,
+      "p95LatencyMs": 0.5032049999999999,
+      "maxLatencyMs": 10.5576,
+      "totalRequests": 20000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437738645-static-1000.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:49:18.842Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "transform",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 9.999780454820113,
+      "avgLatencyMs": 11.092149999999995,
+      "medLatencyMs": 10.2775,
+      "p95LatencyMs": 13.825339999999995,
+      "maxLatencyMs": 50.3045,
+      "totalRequests": 200,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437761571-transform-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:49:41.790Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "transform",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 30.034719085797125,
+      "avgLatencyMs": 10.629726455906836,
+      "medLatencyMs": 9.33,
+      "p95LatencyMs": 22.313,
+      "maxLatencyMs": 53.5268,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437784533-transform-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:50:04.831Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "io-simulate",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 98.49128626031643,
+      "avgLatencyMs": 301.1928264367813,
+      "medLatencyMs": 300.5951,
+      "p95LatencyMs": 307.6272,
+      "maxLatencyMs": 315.1133,
+      "totalRequests": 2001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437807048-io-simulate-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:50:27.554Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "io-simulate",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 492.195843884711,
+      "avgLatencyMs": 302.64932113788615,
+      "medLatencyMs": 300.5123,
+      "p95LatencyMs": 312.5235,
+      "maxLatencyMs": 317.1802,
+      "totalRequests": 10001,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437829796-io-simulate-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:50:50.333Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 20.0471465893902,
+      "avgLatencyMs": 1.508508229426435,
+      "medLatencyMs": 1.465,
+      "p95LatencyMs": 2.647,
+      "maxLatencyMs": 8.5497,
+      "totalRequests": 401,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437852539-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:51:15.645Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 99.99855302093779,
+      "avgLatencyMs": 1.1026502999999994,
+      "medLatencyMs": 1.0536500000000002,
+      "p95LatencyMs": 1.796214999999999,
+      "maxLatencyMs": 11.9957,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437878386-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:51:38.554Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 10.0489532005451,
+      "avgLatencyMs": 3.5003328358208945,
+      "medLatencyMs": 3.1898,
+      "p95LatencyMs": 7.0461,
+      "maxLatencyMs": 10.3435,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437900775-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:52:00.926Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 30.043244025499767,
+      "avgLatencyMs": 2.507337271214643,
+      "medLatencyMs": 2.4173,
+      "p95LatencyMs": 4.0301,
+      "maxLatencyMs": 13.1755,
+      "totalRequests": 601,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437923146-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:52:23.307Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "cluster",
+    "test": "concurrency",
+    "targetRps": 500,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 23282.52026690869,
+      "avgLatencyMs": 19.25433610136925,
+      "medLatencyMs": 19.9332,
+      "p95LatencyMs": 32.182625,
+      "maxLatencyMs": 65.031,
+      "totalRequests": 582856,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437945531-concurrency-500.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:52:51.849Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "workers",
+    "test": "hash",
+    "targetRps": 20,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 19.999579008861865,
+      "avgLatencyMs": 23.747750749999973,
+      "medLatencyMs": 23.271749999999997,
+      "p95LatencyMs": 27.237429999999996,
+      "maxLatencyMs": 35.6985,
+      "totalRequests": 400,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437974080-hash-20.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:53:14.236Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "workers",
+    "test": "hash",
+    "targetRps": 100,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 99.93873405816666,
+      "avgLatencyMs": 22.366237149999968,
+      "medLatencyMs": 22.2268,
+      "p95LatencyMs": 23.884665,
+      "maxLatencyMs": 33.4142,
+      "totalRequests": 2000,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781437995950-hash-100.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:53:36.122Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "workers",
+    "test": "compute",
+    "targetRps": 10,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 10.036800002109226,
+      "avgLatencyMs": 27.242119402985068,
+      "medLatencyMs": 26.7593,
+      "p95LatencyMs": 31.4376,
+      "maxLatencyMs": 34.3077,
+      "totalRequests": 201,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781438017821-compute-10.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:54:00.951Z"
+  },
+  {
+    "framework": "nestjs",
+    "mode": "workers",
+    "test": "compute",
+    "targetRps": 30,
+    "duration": "20s",
+    "baseUrl": "http://localhost:3003",
+    "metrics": {
+      "rps": 29.99966370376988,
+      "avgLatencyMs": 23.187253000000005,
+      "medLatencyMs": 23.08615,
+      "p95LatencyMs": 24.67018,
+      "maxLatencyMs": 35.6681,
+      "totalRequests": 600,
+      "failedRate": 0
+    },
+    "resources": {
+      "avgRssMb": 0,
+      "maxRssMb": 0,
+      "avgCpuPercent": 0
+    },
+    "summaryPath": "C:\\Users\\qfana\\OneDrive\\Рабочий стол\\practicle\\results\\raw\\1781438043163-compute-30.json",
+    "serverDied": false,
+    "timestamp": "2026-06-14T11:54:23.307Z"
+  }
+]

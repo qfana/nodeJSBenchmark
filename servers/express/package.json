@@ -1,0 +1,14 @@
+{
+  "name": "benchmark-express",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:cluster": "node src/cluster.js"
+  },
+  "dependencies": {
+    "@benchmark/shared": "1.0.0",
+    "express": "^4.21.2"
+  }
+}

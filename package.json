@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-framework-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сравнение производительности Express, Fastify и NestJS",
+  "workspaces": [
+    "shared",
+    "servers/express",
+    "servers/fastify",
+    "servers/nestjs"
+  ],
+  "scripts": {
+    "build:nestjs": "npm run build --workspace=servers/nestjs",
+    "start:express": "npm run start --workspace=servers/express",
+    "start:express:cluster": "npm run start:cluster --workspace=servers/express",
+    "start:express:workers": "cross-env USE_WORKER_THREADS=true npm run start --workspace=servers/express",
+    "start:fastify": "npm run start --workspace=servers/fastify",
+    "start:fastify:cluster": "npm run start:cluster --workspace=servers/fastify",
+    "start:fastify:workers": "cross-env USE_WORKER_THREADS=true npm run start --workspace=servers/fastify",
+    "start:nestjs": "npm run start:dev --workspace=servers/nestjs",
+    "start:nestjs:cluster": "npm run build:nestjs && npm run start:cluster --workspace=servers/nestjs",
+    "start:nestjs:workers": "npm run build:nestjs && cross-env USE_WORKER_THREADS=true npm run start --workspace=servers/nestjs",
+    "server": "node scripts/start-server.js",
+    "benchmark": "node scripts/run-benchmarks.js",
+    "benchmark:quick": "node scripts/run-benchmarks.js --quick",
+    "benchmark:full": "node scripts/run-benchmarks.js --full"
+  },
+  "devDependencies": {
+    "autocannon": "^7.15.0",
+    "cross-env": "^7.0.3",
+    "pidusage": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
