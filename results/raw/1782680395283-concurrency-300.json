@@ -1,0 +1,144 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "increment status 200": {
+                    "name": "increment status 200",
+                    "path": "::increment status 200",
+                    "id": "5665685517fab9d7d81aefd164ac66f8",
+                    "passes": 82998,
+                    "fails": 23074
+                },
+                "read status 200": {
+                    "path": "::read status 200",
+                    "id": "211e08f77f572fd9fbb26f2fac69bfc5",
+                    "passes": 83004,
+                    "fails": 23068,
+                    "name": "read status 200"
+                },
+                "value is number": {
+                    "id": "d31def553432f148ea7e9a4234f54795",
+                    "passes": 83004,
+                    "fails": 23068,
+                    "name": "value is number",
+                    "path": "::value is number"
+                }
+            }
+    },
+    "metrics": {
+        "http_req_connecting": {
+            "p(95)": 0,
+            "avg": 0.00044561100007542025,
+            "min": 0,
+            "med": 0,
+            "max": 1.5238,
+            "p(90)": 0
+        },
+        "http_req_receiving": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.01308327315408401,
+            "min": 0,
+            "med": 0,
+            "max": 2.3369
+        },
+        "http_req_sending": {
+            "avg": 0.004741724960404248,
+            "min": 0,
+            "med": 0,
+            "max": 32.8562,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "vus_max": {
+            "min": 300,
+            "max": 300,
+            "value": 300
+        },
+        "http_req_failed": {
+            "passes": 46142,
+            "fails": 166002,
+            "thresholds": {
+                "rate<0.50": false
+            },
+            "value": 0.2175032053699374
+        },
+        "vus": {
+            "value": 300,
+            "min": 58,
+            "max": 300
+        },
+        "http_req_duration{expected_response:true}": {
+            "max": 278.1221,
+            "p(90)": 43.30893999999999,
+            "p(95)": 45.454679999999996,
+            "avg": 29.330196045829975,
+            "min": 0,
+            "med": 29.2748
+        },
+        "data_sent": {
+            "count": 19540363,
+            "rate": 975113.6798497275
+        },
+        "http_reqs": {
+            "count": 212144,
+            "rate": 10586.523725175453
+        },
+        "http_req_duration": {
+            "avg": 22.98289121115789,
+            "min": 0,
+            "med": 28.0445,
+            "max": 278.1221,
+            "p(90)": 41.8347,
+            "p(95)": 44.8444
+        },
+        "data_received": {
+            "count": 45072972,
+            "rate": 2249255.635050574
+        },
+        "http_req_blocked": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.0013986886265932568,
+            "min": 0,
+            "med": 0,
+            "max": 10.1255
+        },
+        "http_req_tls_handshaking": {
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0
+        },
+        "iteration_duration": {
+            "avg": 49.52970004336526,
+            "min": 0,
+            "med": 56.96125,
+            "max": 324.5205,
+            "p(90)": 80.143,
+            "p(95)": 86.51949499999999
+        },
+        "http_req_waiting": {
+            "avg": 22.965066213043205,
+            "min": 0,
+            "med": 28.028100000000002,
+            "max": 278.1221,
+            "p(90)": 41.821,
+            "p(95)": 44.8222
+        },
+        "iterations": {
+            "rate": 5293.261862587727,
+            "count": 106072
+        },
+        "checks": {
+            "passes": 249006,
+            "fails": 69210,
+            "value": 0.782506222188702
+        }
+    }
+}
